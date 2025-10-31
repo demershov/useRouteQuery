@@ -1,0 +1,65 @@
+{
+  "name": "demershov/useRouteQuery",
+  "version": "0.0.1",
+  "description": "A Vue 3 composable for synchronizing route query parameters with reactive state.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/author/library#readme",
+  "bugs": {
+    "url": "https://github.com/author/library/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/author/library.git"
+  },
+  "author": "Dima Ershov <https://github.com/demershov>",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/useRouteQuery.js",
+  "module": "./dist/useRouteQuery.js",
+  "types": "./dist/useRouteQuery.d.ts",
+  "exports": {
+    ".": "./dist/useRouteQuery.js",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit",
+    "lint:package": "publint"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.38.0",
+    "@types/node": "^24.9.1",
+    "@vitest/coverage-v8": "^4.0.5",
+    "bumpp": "^10.3.1",
+    "eslint": "^9.38.0",
+    "globals": "^16.4.0",
+    "jiti": "^2.6.1",
+    "prettier": "3.6.2",
+    "publint": "^0.3.15",
+    "tsdown": "^0.15.9",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.2",
+    "vitest": "^4.0.1",
+    "vue": "^3.5.22",
+    "vue-router": "^4.6.3"
+  },
+  "packageManager": "pnpm@9.15.0+sha1.8bfdb6d72b4d5fdf87d21d27f2bfbe2b21dd2629",
+  "peerDependencies": {
+    "vue": "^3.5.22",
+    "vue-router": "^4.6.3"
+  },
+  "publishConfig": {
+    "exports": {
+      ".": "./dist/useRouteQuery.js",
+      "./package.json": "./package.json"
+    }
+  }
+}
