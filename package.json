@@ -4,13 +4,13 @@
   "description": "A Vue 3 composable for synchronizing route query parameters with reactive state.",
   "type": "module",
   "license": "MIT",
-  "homepage": "https://github.com/author/library#readme",
+  "homepage": "https://github.com/demershov/useRouteQuery#readme",
   "bugs": {
-    "url": "https://github.com/author/library/issues"
+    "url": "https://github.com/demershov/useRouteQuery/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/author/library.git"
+    "url": "git+https://github.com/demershov/useRouteQuery.git"
   },
   "author": "Dima Ershov <https://github.com/demershov>",
   "files": [
