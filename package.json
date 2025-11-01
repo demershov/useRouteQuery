@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/demershov/useRouteQuery.git"
   },
-  "author": "Dima Ershov <https://github.com/demershov>",
+  "author": "Dima Ershov (https://github.com/demershov)",
   "files": [
     "dist"
   ],
