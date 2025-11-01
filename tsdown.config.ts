@@ -15,4 +15,5 @@ export default defineConfig({
   exports: {
     devExports: false,
   },
+  publint: true,
 });
