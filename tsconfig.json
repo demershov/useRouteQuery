@@ -16,6 +16,7 @@
     "verbatimModuleSyntax": true,
     "skipLibCheck": true,
     "isolatedDeclarations": true,
+    "noUncheckedIndexedAccess": true,
     "paths": {
       "@/*": ["./src/*"]
     }
