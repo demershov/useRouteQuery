@@ -1,6 +1,6 @@
 {
   "name": "@demershov/use-route-query",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Vue 3 composable for synchronizing route query parameters with reactive state.",
   "type": "module",
   "license": "MIT",
