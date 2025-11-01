@@ -13,7 +13,7 @@ export default defineConfig({
 
   minify: false,
   exports: {
-    devExports: false,
+    devExports: true,
   },
   publint: true,
 });
