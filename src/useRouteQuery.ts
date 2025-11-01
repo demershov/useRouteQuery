@@ -53,7 +53,7 @@ export function useRouteQuery<T extends unknown>(
   let cachedRawValue: SetQueryValue;
 
   if (name in route.query) {
-    const initialQueryValue = route.query[name];
+    const initialQueryValue = route.query[name]!;
     cachedRawValue = initialQueryValue;
     cachedValue = transformFromQuery(initialQueryValue);
   }
